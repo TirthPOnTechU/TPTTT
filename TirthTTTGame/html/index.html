@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://kit.fontawesome.com/024fdd2214.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <title>TicTacToe</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1 class="brand-title"><span>tp</span>TacToe</h1>
+        </div>
+    </header>
+    <div class="main-container">
+        <form action="">
+            <div class="form-section">
+                <h2>Player-X: </h2>
+                <input class='p1-name'type="text">
+            </div>
+            <div class="form-section">
+                <h2>Player-O: </h2>
+                <input class='p2-name' type="text">
+            </div>
+            <button class="submitBtn">SUBMIT</button>
+            <i class="fas fa-redo"></i>
+            
+        </form>
+        <div class="board">
+                <div class="board-space" id="0"></div>
+                <div class="board-space" id="1"></div>
+                <div class="board-space" id="2"></div>
+                <div class="board-space" id="3"></div>
+                <div class="board-space" id="4"></div>
+                <div class="board-space" id="5"></div>
+                <div class="board-space" id="6"></div>
+                <div class="board-space" id="7"></div>
+                <div class="board-space" id="8"></div>
+        </div>
+        <div class="scoreboard">
+            <h2 class="p1-score score"></h2>
+            <h2 class="p2-score score"></h2>
+        </div>
+    </div>
+    <div class="result-overlay">
+        <div class="result"></div>
+        <i class="fas fa-redo"></i>
+    </div>
+    <script src="/js/main.js"></script>
+</body>
+</html>
